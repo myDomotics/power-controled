@@ -8,7 +8,7 @@ Design to replace individual power plugs on different devices
 - display amp and internal temperature
 - fan controled based on temperature
 
-Detailed features :
+Technical design details :
 - display is TM1637 based
 - temperature sensor : DB1820
 - amp sensor is ACS711EX based
