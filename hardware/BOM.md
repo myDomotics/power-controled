@@ -12,4 +12,4 @@
 - 2*22pF
 ### Miscelaneous
 - screw terminal 2 position
-- pin headers (9)
+- pin headers (10)
