@@ -1,5 +1,13 @@
 # power-controled
 5V power rail controled by Arduino and ESP8266
+Design to replace individual power plugs on different devices
+
+## Features
+- 5V/5A output
+- 5 separated outputs
+- display amp
+- display internal temperature
+- fan controled based on temperature
 
 ## BOM:
 ### Arduino card:
@@ -15,4 +23,4 @@
 - 2*22pF
 #### Miscelaneous
 - screw terminal 2 position
-- pin headers (8)
+- pin headers (9)

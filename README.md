@@ -1,5 +1,12 @@
 # power-controled
 5V power rail controled by Arduino and ESP8266
+Design to replace individual power plugs on different devices
+
+## Features
+- 5V/5A output
+- 5 separated outputs. 4 of them could be switch on/off locally or remotely through mqtt
+- display amp and internal temperature
+- fan controled based on temperature
 
 ## BOM:
 ### Arduino card:
