@@ -49,8 +49,12 @@ This card is also supporting the DS1820 temp sensor.
 
 ## D1 shield
 ## Relay shield
+
 ## Switches
 Use of ON-OFF-ON switched to allow each output to be OFF, ON or drived by the ESP8266. I use this type of switch:
 ![switch](./img/switch.jpg) 
+
 4 of them are required, 1 of the outputs is always on.
 ## Power
+Power used is a 60W Meanwell switching power (model T60, currently discontinued, but could be replaced by more recent one). Ouputs : 5V/5A, +12V/2.5A and -12V (noy used).
+** Warning : this device is connected to main power. Be very carefull with it. To avoid electric choc, plastic enclosure must be used. Never plug to main power when the enclosure is open. Don't do this project if your are not familiar with this type of electric part. Check isolation. Never touch the power when connected to main power. Use fuse between this device and the main power **
