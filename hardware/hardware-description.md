@@ -33,7 +33,7 @@ UC Card is a simple Arduino barebone with 7805 regulator, as powered by 12V
 | J8 | Display |
 
 ## Fan shield
-PNP transistor drives the fan. Resistor between base and Vcc of the transistor can be changed ; use a 4066 quad switch and resistors are put on a IC socket, so they can be changed easily depending on the fan used and the speeds desired. 4066 switches are controled by the UC (pins D9 to D12).
+PNP transistor drives the fan. Resistor between base of the transistor and Vcc can be changed ; use a 4066 quad switch and resistors are put on a IC socket, so they can be changed easily depending on the fan used and the speeds desired. 4066 switches are controled by the UC (pins D9 to D12).
 This card is also supporting the DS1820 temp sensor.
 ### schema
 ![Fan shield schema](./img/Power-Fan-Shield_schema.png) 
