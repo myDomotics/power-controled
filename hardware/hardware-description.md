@@ -1,13 +1,13 @@
-#Hardware description
+# Hardware description
 Hardware includes :
 - A UC Card (Arduino)
 - A shield to drive the fan
 - A shield to support D1 ESP8266
 - A shield for relay
  
-##UC Card
+## UC Card
 UC Card is a simple Arduino barebone with 7805 regulator, as powered by 12V
-###list of I/O used
+### list of I/O used
 | Sensor/Output | Arduino pin |
 | --- | --- |
 | DS1820 (temperature) | D4 |
@@ -32,7 +32,7 @@ UC Card is a simple Arduino barebone with 7805 regulator, as powered by 12V
 | J7 | GND and +12V for Fan shield |
 | J8 | Display |
 
-##Fan shield
+## Fan shield
 PNP transistor drives the fan. Resistor between base and Vcc of the transistor can be changed ; use a 4066 quad switch and resistors are put on a IC socket, so they can be changed easily depending on the fan used and the speeds desired. 4066 switches are controled by the UC (pins D9 to D12).
 This card is also supporting the DS1820 temp sensor.
 ### schema
@@ -47,5 +47,5 @@ This card is also supporting the DS1820 temp sensor.
 | J11 |  to UC Card |
 | J12 |  to DS1820 temp sensor |
 
-##D1 shield
-##Relay shield
+## D1 shield
+## Relay shield
