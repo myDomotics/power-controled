@@ -49,3 +49,8 @@ This card is also supporting the DS1820 temp sensor.
 
 ## D1 shield
 ## Relay shield
+## Switches
+Use of ON-OFF-ON switched to allow each output to be OFF, ON or drived by the ESP8266. I use this type of switch:
+![switch](./img/switch.jpg) 
+4 of them are required, 1 of the outputs is always on.
+## Power
